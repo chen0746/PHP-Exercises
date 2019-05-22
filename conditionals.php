@@ -123,16 +123,16 @@ The referencial value will be true.
 */
 
 switch (true) {
-    case ($redLight === true || $yellowLight === true) && $greenLight === false : 
+    case ($redLight === true || $yellowLight === true) && $greenLight === false: 
         echo "Stop the car!";
         break;
-    case $redLight === false && $yellowLight === false && $greenLight === false :
+    case $redLight === false && $yellowLight === false && $greenLight === false:
         echo "Power outage!";
         break;
-    case $redLight === false && $yellowLight === false && $greenLight === true :
+    case $redLight === false && $yellowLight === false && $greenLight === true:
         echo "Keep moving!";
         break;
-    case ($redLight === true || $yellowLight === true) && $greenLight === true :
+    case ($redLight === true || $yellowLight === true) && $greenLight === true:
         echo "Traffic lights are messed up!";
         break;
     default: 
