@@ -69,8 +69,10 @@ $food = [
 /*
 Use while-loop to print array elements (every food in a new row).
 */
-while($i< count($food)) {
-    echo "{$food[$i]} <br>";
+$j = 0;
+while($j< count($food)) {
+    echo "{$food[$j]} <br>";
+    $j++;
 }
 
 /*
